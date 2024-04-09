@@ -39,8 +39,8 @@ public class DamageHologram {
     }
 
     public void remove() {
-        if (armorStand.isValid()) {
-            armorStand.remove();
+        if (this.armorStand != null && this.armorStand.isValid()) {
+            this.armorStand.remove();
         }
     }
 }
